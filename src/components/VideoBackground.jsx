@@ -4,7 +4,7 @@ const VideoBackground = () => {
       <iframe
         src={
           "https://www.youtube.com/embed/NboIt4cIabw?si=9qzaDgdUYHxKRZE3" +
-          "?&autoplay=1&mute=1&vq=hd720"
+          "?&autoplay=1&mute=1&vq=hd1080"
         }
         className="w-screen aspect-video"
         title="YouTube video player"
