@@ -8,6 +8,8 @@ import { BsTwitterX } from "react-icons/bs";
 const About = () => {
   return (
     <div>
+      {/* About our Organization */}
+
       <div className="flex items-center">
         <div className="my-20 mx-14">
           <img src={JfuctMap} alt="JFUCT" className="w-[800px] h-[500px]" />
@@ -30,6 +32,8 @@ const About = () => {
         </div>
       </div>
 
+      {/* Our Mission */}
+
       <div className="w-[1200px] mx-auto bg-[#f7e3d2] rounded-3xl py-8">
         <h1 className="text-4xl text-center font-medium">Our Mission</h1>
         <p className=" text-lg text-center pt-5 px-12 tracking-wide leading-relaxed">
@@ -45,6 +49,8 @@ const About = () => {
           that is rooted in the teachings of the Quran and Sunnah.
         </p>
       </div>
+
+      {/* Our Founder */}
 
       <div className="flex justify-center items-center">
         <div className="w-[490px] h-[560px] bg-[#012b28] p-12 text-[#ebb42c] rounded-3xl my-20">

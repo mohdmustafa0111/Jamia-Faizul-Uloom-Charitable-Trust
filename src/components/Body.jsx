@@ -1,7 +1,8 @@
-import About from "./About";
-import Events from "./Events";
 import Header from "./Header";
 import VideoBackground from "./VideoBackground";
+import About from "./About";
+import Events from "./Events";
+import Media from "./Media";
 
 const Body = () => {
   return (
@@ -10,6 +11,7 @@ const Body = () => {
       <VideoBackground />
       <About />
       <Events />
+      <Media />
     </div>
   );
 };
