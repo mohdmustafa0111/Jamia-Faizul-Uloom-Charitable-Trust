@@ -13,8 +13,8 @@ const About = () => {
           <img src={JfuctMap} alt="JFUCT" className="w-[800px] h-[500px]" />
         </div>
         <div className="w-[520px] h-[580px] bg-[#012b28] p-12 text-[#ebb42c] rounded-3xl my-20">
-          <h1 className="text-4xl font-serif">About Our Organization</h1>
-          <p className="mt-6 text-lg font-serif tracking-wider leading-relaxed">
+          <h1 className="text-4xl">About Our Organization</h1>
+          <p className="mt-6 text-lg tracking-wider leading-relaxed">
             Jamia Faizul Uloom is a religious educational institution that
             offers courses in Islamic studies, Computer and Hindi. The
             institution is located in Nizampur, distt. Nuh. The institution was
@@ -31,10 +31,8 @@ const About = () => {
       </div>
 
       <div className="w-[1200px] mx-auto bg-[#f7e3d2] rounded-3xl py-8">
-        <h1 className="text-4xl text-center font-serif font-medium">
-          Our Mission
-        </h1>
-        <p className=" text-lg text-center font-serif pt-5 px-12 tracking-wide leading-relaxed">
+        <h1 className="text-4xl text-center font-medium">Our Mission</h1>
+        <p className=" text-lg text-center pt-5 px-12 tracking-wide leading-relaxed">
           Our mission is to provide students with a comprehensive education in
           Islamic studies that is rooted in the teachings of the Quran and
           Sunnah. We aim to equip our students with the knowledge and skills
@@ -49,9 +47,9 @@ const About = () => {
       </div>
 
       <div className="flex justify-center items-center">
-        <div className="w-[490px] h-[560px] bg-[#012b28] p-12 text-[#ebb42c] rounded-3xl my-16">
-          <h1 className=" font-serif text-4xl">Our Founder</h1>
-          <p className="mt-6 text-lg font-serif tracking-wider leading-relaxed">
+        <div className="w-[490px] h-[560px] bg-[#012b28] p-12 text-[#ebb42c] rounded-3xl my-20">
+          <h1 className="text-4xl">Our Founder</h1>
+          <p className="mt-6 text-lg tracking-wider leading-relaxed">
             Our founder, Mr. Mohd. Iqbal, established Jamia Faizul Uloom in 2011
             with a vision to provide quality education in Islamic studies, along
             with modern subjects like Computer and Hindi. His dedication and
