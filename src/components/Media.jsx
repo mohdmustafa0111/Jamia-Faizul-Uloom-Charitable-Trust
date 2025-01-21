@@ -22,6 +22,14 @@ const Media = () => {
     PrintMedia9,
   ];
 
+  const videos = [
+    "https://www.youtube.com/embed/DAKDwhAzOik?si=dUcrK_nFn8lh_bOI",
+    "https://www.youtube.com/embed/ZT_6FXYKe9Y?si=bxWBQizqTjxaXMnI",
+    "https://www.youtube.com/embed/ntb2Gf5w9k4?si=98YVNfVkP06tj8Dw",
+    "https://www.youtube.com/embed/NboIt4cIabw?si=SsHE9ixczf78-KPF",
+    "https://www.youtube.com/embed/YlaFj5wFbU8?si=Fu3Wq6i7Wd1ZbCJs",
+  ];
+
   const settings = {
     infinite: true, // Infinite scrolling
     speed: 500, // Transition speed
@@ -58,7 +66,7 @@ const Media = () => {
     <div>
       {/* Print Nedia */}
 
-      <div className="h-[700px] w-full text-center p-10">
+      <div className="h-[700px] w-full text-center p-10 mt-3">
         <h1 className="text-3xl bg-[#012b28] text-[#ebb42c] w-52 p-4 m-auto rounded-full">
           Print Media
         </h1>
@@ -79,7 +87,32 @@ const Media = () => {
       </div>
 
       {/* Digital Nedia */}
+
+      <div className="h-[650px] w-full text-center p-10 bg-[#F7E3D2]">
+        <h1 className="text-3xl bg-[#012b28] text-[#ebb42c] w-60 p-4 mt-5 m-auto rounded-full">
+          Digital Media
+        </h1>
+
+        <div className="w-full mx-auto mt-10">
+          <Slider {...settings}>
+            {videos.map((video, index) => (
+              <div key={index} className="p-4">
+                <div>
+                  <iframe
+                    className="w-[500px] h-[400px] px-7"
+                    src={video}
+                    title={`YouTube video ${index + 1}`}
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                  ></iframe>
+                </div>
+              </div>
+            ))}
+          </Slider>
+        </div>
+      </div>
     </div>
   );
 };
+
 export default Media;

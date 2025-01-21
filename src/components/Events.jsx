@@ -17,6 +17,7 @@ import EventImage15 from "../assests/Events/Event 15.jpg";
 import EventImage16 from "../assests/Events/Event 16.jpg";
 import EventImage17 from "../assests/Events/Event 17.jpg";
 import EventImage18 from "../assests/Events/Event 18.jpg";
+import EventImage19 from "../assests/Events/Event 19.jpeg";
 
 const Events = () => {
   const EventImages = [
@@ -38,6 +39,7 @@ const Events = () => {
     EventImage16,
     EventImage17,
     EventImage18,
+    EventImage19,
   ];
 
   const settings = {
@@ -73,8 +75,8 @@ const Events = () => {
   };
 
   return (
-    <div className="bg-[#F7E3D2] h-[700px] w-full text-center p-10">
-      <h1 className="text-3xl bg-[#012b28] text-[#ebb42c] w-52 p-4 m-auto rounded-full">
+    <div className="bg-[#F7E3D2] h-[730px] w-full text-center p-10">
+      <h1 className="text-3xl bg-[#012b28] text-[#ebb42c] w-52 p-4 mt-3 m-auto rounded-full">
         Past Events
       </h1>
 
@@ -85,7 +87,7 @@ const Events = () => {
               <img
                 src={image}
                 alt={`Slide ${index + 1}`}
-                className="w-full h-[480px] px-8"
+                className="w-full h-[500px] px-8"
               />
             </div>
           ))}
