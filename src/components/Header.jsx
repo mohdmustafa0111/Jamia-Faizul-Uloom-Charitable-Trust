@@ -18,7 +18,7 @@ const Header = () => {
           <li className="hover:text-[#fff6ef]">About</li>
           <li className="hover:text-[#fff6ef]">Events</li>
           <li className="hover:text-[#fff6ef]">Media</li>
-          <li className="hover:text-[#fff6ef]">Contact</li>
+          <li className="hover:text-[#fff6ef]">Donate</li>
         </ul>
       </div>
     </div>
