@@ -1,7 +1,11 @@
 const Donate = () => {
   return (
     <div className="bg-[#012b28] text-[#ebb42c]  w-full h-[580px]">
-      <div className="text-5xl text-center py-9">"Donate to the Cause"</div>
+      <div className="text-center py-9">
+        <h1 className="text-5xl inline-block border-b-2 border-[#ebb42c]">
+          Donate to the Cause
+        </h1>
+      </div>
       {/* Financial Details */}
       <div className="flex mt-4">
         <div className="w-1/2 pl-12">
