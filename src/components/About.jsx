@@ -4,6 +4,7 @@ import { SiGmail } from "react-icons/si";
 import { FaFacebookSquare } from "react-icons/fa";
 import { SiYoutube } from "react-icons/si";
 import { BsTwitterX } from "react-icons/bs";
+import { MdCall } from "react-icons/md";
 
 const About = () => {
   return (
@@ -26,9 +27,16 @@ const About = () => {
             Shahbuddin, and with the unwavering support and guidance of his
             mother, Mrs. Majida, who played a pivotal role in its establishment.
           </p>
-          <button className="border border-[#ebb42c] px-3 py-2 mt-5 hover:bg-[#ebb42c] hover:text-[#012b28]">
-            Read More
-          </button>
+          <div className="flex items-center mt-4">
+            <div className="self-center">
+              <MdCall className=" text-5xl" />
+            </div>
+            <div className="border-l h-14 mx-4 border-[#ebb42c]"></div>
+            <div>
+              <p className=" text-lg">Call Us</p>
+              <p className=" text-xl">+91 9050107709</p>
+            </div>
+          </div>
         </div>
       </div>
 
@@ -53,7 +61,7 @@ const About = () => {
       {/* Our Founder */}
 
       <div className="flex justify-center items-center">
-        <div className="w-[490px] h-[560px] bg-[#012b28] p-12 text-[#ebb42c] rounded-3xl my-20">
+        <div className="w-[490px] h-[590px] bg-[#012b28] p-10 text-[#ebb42c] rounded-3xl my-20">
           <h1 className="text-4xl">Our Founder</h1>
           <p className="mt-6 text-lg tracking-wider leading-relaxed">
             Our founder, Mr. Mohd. Iqbal, established Jamia Faizul Uloom in 2011
@@ -65,7 +73,7 @@ const About = () => {
             guidance played a crucial role in shaping his commitment to
             education and community service.
           </p>
-          <div className="flex space-x-6 mt-6">
+          <div className="flex space-x-6 mt-7">
             <a
               href="mailto:mohdipbal81@gmail.com"
               target="_blank"
@@ -98,6 +106,15 @@ const About = () => {
             >
               <BsTwitterX />
             </a>
+          </div>
+          <div className="flex items-center mt-2">
+            <div className="self-center">
+              <MdCall className=" text-2xl" />
+            </div>
+            <div className="border-l h-7 mx-2 border-[#ebb42c]"></div>
+            <div>
+              <p className=" text-xl">+91 9050107709</p>
+            </div>
           </div>
         </div>
 

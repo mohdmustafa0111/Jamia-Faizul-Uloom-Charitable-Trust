@@ -2,7 +2,7 @@ import logo from "../assests/Logo-JFUCT.png";
 
 const Header = () => {
   return (
-    <div className="bg-[#012b28] flex justify-between space-x-10">
+    <div className="bg-[#012b28] flex justify-between items-center space-x-10">
       <div className="flex ml-12 ">
         <img src={logo} alt="Logo" className="w-20 h-20" />
         <div className="flex flex-col justify-center ml-2 tracking-wide">

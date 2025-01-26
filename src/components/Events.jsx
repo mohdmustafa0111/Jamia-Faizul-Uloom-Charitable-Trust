@@ -18,6 +18,7 @@ import EventImage16 from "../assests/Events/Event 16.jpg";
 import EventImage17 from "../assests/Events/Event 17.jpg";
 import EventImage18 from "../assests/Events/Event 18.jpg";
 import EventImage19 from "../assests/Events/Event 19.jpeg";
+import EventImage20 from "../assests/Events/Event 20.jpg";
 
 const Events = () => {
   const EventImages = [
@@ -40,6 +41,7 @@ const Events = () => {
     EventImage17,
     EventImage18,
     EventImage19,
+    EventImage20,
   ];
 
   const settings = {

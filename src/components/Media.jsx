@@ -28,6 +28,7 @@ const Media = () => {
     "https://www.youtube.com/embed/ntb2Gf5w9k4?si=98YVNfVkP06tj8Dw",
     "https://www.youtube.com/embed/NboIt4cIabw?si=SsHE9ixczf78-KPF",
     "https://www.youtube.com/embed/YlaFj5wFbU8?si=Fu3Wq6i7Wd1ZbCJs",
+    "https://www.youtube.com/embed/cUrHQsIhffA?si=mWSAcH48JtBPiHwE",
   ];
 
   const settings = {
