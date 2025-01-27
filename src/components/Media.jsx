@@ -64,7 +64,7 @@ const Media = () => {
   };
 
   return (
-    <div>
+    <div id="media">
       {/* Print Nedia */}
 
       <div className="h-[700px] w-full text-center p-10 mt-3">

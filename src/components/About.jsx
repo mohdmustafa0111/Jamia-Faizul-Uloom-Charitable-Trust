@@ -8,7 +8,7 @@ import { MdCall } from "react-icons/md";
 
 const About = () => {
   return (
-    <div>
+    <div id="about">
       {/* About our Organization */}
 
       <div className="flex items-center">

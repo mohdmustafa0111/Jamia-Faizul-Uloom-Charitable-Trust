@@ -14,11 +14,31 @@ const Header = () => {
       </div>
       <div>
         <ul className="flex items-center space-x-10 text-[#ebb42c] text-xl p-5 mr-8 cursor-pointer">
-          <li className="hover:text-[#fff6ef]">Home</li>
-          <li className="hover:text-[#fff6ef]">About</li>
-          <li className="hover:text-[#fff6ef]">Events</li>
-          <li className="hover:text-[#fff6ef]">Media</li>
-          <li className="hover:text-[#fff6ef]">Donate</li>
+          <li>
+            <a href="#home" className="hover:text-[#fff6ef]">
+              Home
+            </a>
+          </li>
+          <li>
+            <a href="#about" className="hover:text-[#fff6ef]">
+              About
+            </a>
+          </li>
+          <li>
+            <a href="#events" className="hover:text-[#fff6ef]">
+              Events
+            </a>
+          </li>
+          <li>
+            <a href="#media" className="hover:text-[#fff6ef]">
+              Media
+            </a>
+          </li>
+          <li>
+            <a href="#donate" className="hover:text-[#fff6ef]">
+              Donate
+            </a>
+          </li>
         </ul>
       </div>
     </div>
