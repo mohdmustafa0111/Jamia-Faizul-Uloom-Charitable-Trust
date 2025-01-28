@@ -8,6 +8,7 @@ import PrintMedia6 from "../assests/Print Media/Print 6.jpg";
 import PrintMedia7 from "../assests/Print Media/Print 7.jpg";
 import PrintMedia8 from "../assests/Print Media/Print 8.jpg";
 import PrintMedia9 from "../assests/Print Media/Print 9.jpg";
+import PrintMedia10 from "../assests/Print Media/Print 10.jpeg";
 
 const Media = () => {
   const PrintMedia = [
@@ -20,6 +21,7 @@ const Media = () => {
     PrintMedia7,
     PrintMedia8,
     PrintMedia9,
+    PrintMedia10,
   ];
 
   const videos = [
