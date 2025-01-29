@@ -69,7 +69,7 @@ const Donate = () => {
 
           {/* Donor's Testimonial */}
 
-          <div className="md:w-1/2 mt-8">
+          <div className="md:w-1/2 mt-8 md:mt-0">
             <h1 className="text-3xl md:text-4xl">Donor's Testimonial</h1>
             <div className="font-sans text-xl w-[410px] md:w-[680px] h-[510px] md:h-[320px] mt-7 tracking-wider leading-relaxed border border-[#ebb42c] rounded-3xl">
               <p className="pt-6 px-7">

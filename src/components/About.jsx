@@ -46,7 +46,7 @@ const About = () => {
 
       {/* Our Mission */}
 
-      <div className="w-[400px] md:w-[1200px] mx-auto bg-[#f7e3d2] rounded-3xl py-8 mt-4">
+      <div className="w-[400px] md:w-[1200px] mx-auto bg-[#f7e3d2] rounded-3xl py-8 mt-4 md:mt-1">
         <h1 className="text-3xl md:text-4xl text-center font-medium">
           Our Mission
         </h1>

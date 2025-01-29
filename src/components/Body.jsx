@@ -4,6 +4,7 @@ import About from "./About";
 import Events from "./Events";
 import Media from "./Media";
 import Donate from "./Donate";
+import Footer from "./Footer";
 
 const Body = () => {
   return (
@@ -14,6 +15,7 @@ const Body = () => {
       <Events />
       <Media />
       <Donate />
+      <Footer />
     </div>
   );
 };
