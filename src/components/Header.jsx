@@ -12,7 +12,7 @@ const Header = () => {
 
   return (
     <div className="bg-[#012b28] flex justify-between items-center md:space-x-10">
-      <div className="flex ml-3 md:ml-12 ">
+      <div className="flex ml-2 md:ml-12 ">
         <img src={logo} alt="Logo" className="w-14 md:w-20 h-14 md:h-20" />
         <div className="flex flex-col justify-center ml-0 md:ml-2 tracking-wide">
           <h1 className="text-[#ebb42c] text-sm md:text-2xl">
