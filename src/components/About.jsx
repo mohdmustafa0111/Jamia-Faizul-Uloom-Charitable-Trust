@@ -19,7 +19,7 @@ const About = () => {
             className="w-[360px] md:w-[800px] h-[250px] md:h-[500px]"
           />
         </div>
-        <div className="w-[380px] md:w-[520px] h-[540px] md:h-[580px] bg-[#012b28] p-6 md:p-12 text-[#ebb42c] rounded-3xl my-2 md:my-20 text-center md:text-left">
+        <div className="w-[380px] md:w-[520px] h-[550px] md:h-[580px] bg-[#012b28] p-6 md:p-12 text-[#ebb42c] rounded-3xl my-2 md:my-20 text-center md:text-left">
           <h1 className="text-2xl md:text-4xl">About Our Organization</h1>
           <p className="mt-3 md:mt-6 text-base md:text-lg tracking-wider leading-relaxed">
             Jamia Faizul Uloom is a religious educational institution that
