@@ -101,7 +101,7 @@ const Header = () => {
 
         {/* Menu Items */}
         <div>
-          <ul className="text-[#ebb42c] py-5 text-2xl cursor-pointer">
+          <ul className="text-[#ebb42c] py-5 text-3xl cursor-pointer">
             <li className="py-4">
               <a
                 href="#home"

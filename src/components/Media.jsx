@@ -69,19 +69,19 @@ const Media = () => {
     <div id="media">
       {/* Print Nedia */}
 
-      <div className="h-[700px] w-full text-center p-10 mt-3">
-        <h1 className="text-3xl bg-[#012b28] text-[#ebb42c] w-52 p-4 m-auto rounded-full">
+      <div className="h-[590px] md:h-[700px] w-full text-center p-10 mt-3">
+        <h1 className="text-2xl md:text-3xl bg-[#012b28] text-[#ebb42c] w-52 p-3 md:p-4 m-auto rounded-full">
           Print Media
         </h1>
 
-        <div className="mt-12">
+        <div className="mt-10 md:mt-12">
           <Slider {...settings}>
             {PrintMedia.map((image, index) => (
               <div key={index} className="space-x-10">
                 <img
                   src={image}
                   alt={`Slide ${index + 1}`}
-                  className="w-full h-[480px] px-8"
+                  className="w-full h-[400px] md:h-[480px] px-8"
                 />
               </div>
             ))}
@@ -91,18 +91,18 @@ const Media = () => {
 
       {/* Digital Nedia */}
 
-      <div className="h-[650px] w-full text-center p-10 bg-[#F7E3D2]">
-        <h1 className="text-3xl bg-[#012b28] text-[#ebb42c] w-60 p-4 mt-5 m-auto rounded-full">
+      <div className="h-[620px] md:h-[650px] w-full text-center p-10 bg-[#F7E3D2]">
+        <h1 className="text-2xl md:text-3xl bg-[#012b28] text-[#ebb42c] w-60 p-3 md:p-4 mt-5 m-auto rounded-full">
           Digital Media
         </h1>
 
-        <div className="w-full mx-auto mt-10">
+        <div className="w-full mx-auto mt-8 md:mt-10">
           <Slider {...settings}>
             {videos.map((video, index) => (
-              <div key={index} className="p-4">
+              <div key={index}>
                 <div>
                   <iframe
-                    className="w-[500px] h-[400px] px-7"
+                    className="w-[500px] h-[400px] md:px-10 mt-3"
                     src={video}
                     title={`YouTube video ${index + 1}`}
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

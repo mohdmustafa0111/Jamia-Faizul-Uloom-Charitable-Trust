@@ -1,18 +1,18 @@
 const Donate = () => {
   return (
     <div id="donate">
-      <div className="bg-[#012b28] text-[#ebb42c]  w-full h-[580px]">
+      <div className="bg-[#012b28] text-[#ebb42c] w-full h-[1230px] md:h-[580px]">
         <div className="text-center py-9">
-          <h1 className="text-5xl inline-block border-b-2 border-[#ebb42c]">
+          <h1 className="text-4xl md:text-5xl inline-block border-b-2 border-[#ebb42c]">
             Donate to the Cause
           </h1>
         </div>
         {/* Financial Details */}
-        <div className="flex mt-4">
-          <div className="w-1/2 pl-12">
-            <h1 className="text-4xl">Financial Details</h1>
+        <div className="flex md:mt-4 flex-col md:flex-row justify-center items-center text-center md:text-left">
+          <div className="md:w-1/2 md:pl-12">
+            <h1 className="text-3xl md:text-4xl">Financial Details</h1>
             <div className="font-sans mt-7">
-              <table className="w-[620px] border border-[#ebb42c]">
+              <table className="w-[350px] md:w-[620px] border border-[#ebb42c]">
                 <tbody>
                   <tr>
                     <td className="border border-[#ebb42c] px-4 py-3 w-1/2 text-lg">
@@ -69,9 +69,9 @@ const Donate = () => {
 
           {/* Donor's Testimonial */}
 
-          <div className="w-1/2">
-            <h1 className="text-4xl">Donor's Testimonial</h1>
-            <div className="font-sans text-xl w-[680px] h-[320px] mt-7 tracking-wider leading-relaxed border border-[#ebb42c] rounded-3xl">
+          <div className="md:w-1/2 mt-8">
+            <h1 className="text-3xl md:text-4xl">Donor's Testimonial</h1>
+            <div className="font-sans text-xl w-[410px] md:w-[680px] h-[510px] md:h-[320px] mt-7 tracking-wider leading-relaxed border border-[#ebb42c] rounded-3xl">
               <p className="pt-6 px-7">
                 I am so happy to see my donation going for a useful purpose,
                 thanks to Jamia Faizul Uloom, who makes it happen. It is a best
