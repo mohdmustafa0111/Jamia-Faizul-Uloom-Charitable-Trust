@@ -79,9 +79,9 @@ const Events = () => {
   return (
     <div
       id="events"
-      className="bg-[#F7E3D2] h-[580px] md:h-[730px] w-full text-center p-10"
+      className="bg-[#F7E3D2] h-[540px] md:h-[730px] w-full text-center p-10"
     >
-      <h1 className="text-2xl md:text-3xl bg-[#012b28] text-[#ebb42c] w-52 p-3 md:p-4 mt-1 md:mt-3 m-auto rounded-full">
+      <h1 className="text-xl md:text-3xl bg-[#012b28] text-[#ebb42c] w-fit px-6 py-3 md:px-6 md:py-3 md: mt-1 md:mt-3 m-auto rounded-full">
         Past Events
       </h1>
 
@@ -92,7 +92,7 @@ const Events = () => {
               <img
                 src={image}
                 alt={`Slide ${index + 1}`}
-                className="w-full h-[380px] md:h-[500px] px-8"
+                className="w-full h-[350px] md:h-[500px] px-8"
               />
             </div>
           ))}

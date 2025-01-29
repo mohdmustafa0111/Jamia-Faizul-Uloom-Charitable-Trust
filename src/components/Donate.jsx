@@ -1,7 +1,7 @@
 const Donate = () => {
   return (
     <div id="donate">
-      <div className="bg-[#012b28] text-[#ebb42c] w-full h-[1230px] md:h-[580px]">
+      <div className="bg-[#012b28] text-[#ebb42c] w-full h-[980px] md:h-[580px]">
         <div className="text-center py-9">
           <h1 className="text-4xl md:text-5xl inline-block border-b-2 border-[#ebb42c]">
             Donate to the Cause
@@ -15,50 +15,50 @@ const Donate = () => {
               <table className="w-[350px] md:w-[620px] border border-[#ebb42c]">
                 <tbody>
                   <tr>
-                    <td className="border border-[#ebb42c] px-4 py-3 w-1/2 text-lg">
+                    <td className="border border-[#ebb42c] px-4 py-3 w-1/2 text-base md:text-lg">
                       Trust Regd. No.
                     </td>
-                    <td className="border border-[#ebb42c] px-4 py-3 w-1/2 text-lg">
+                    <td className="border border-[#ebb42c] px-4 py-3 w-1/2 text-base md:text-lg">
                       4455
                     </td>
                   </tr>
                   <tr>
-                    <td className="border border-[#ebb42c] px-4 py-3 w-1/2 text-lg">
+                    <td className="border border-[#ebb42c] px-4 py-3 w-1/2 text-base md:text-lg">
                       Account No.
                     </td>
-                    <td className="border border-[#ebb42c] px-4 py-3 w-1/2 text-lg">
+                    <td className="border border-[#ebb42c] px-4 py-3 w-1/2 text-base md:text-lg">
                       50200068803612
                     </td>
                   </tr>
                   <tr>
-                    <td className="border border-[#ebb42c] px-4 py-3 w-1/2 text-lg">
+                    <td className="border border-[#ebb42c] px-4 py-3 w-1/2 text-base md:text-lg">
                       IFSC Code
                     </td>
-                    <td className="border border-[#ebb42c] px-4 py-3 w-1/2 text-lg">
+                    <td className="border border-[#ebb42c] px-4 py-3 w-1/2 text-base md:text-lg">
                       HDFC0005478
                     </td>
                   </tr>
                   <tr>
-                    <td className="border border-[#ebb42c] px-4 py-3 w-1/2 text-lg">
+                    <td className="border border-[#ebb42c] px-4 py-3 w-1/2 text-base md:text-lg">
                       PAN No.
                     </td>
-                    <td className="border border-[#ebb42c] px-4 py-3 w-1/2 text-lg">
+                    <td className="border border-[#ebb42c] px-4 py-3 w-1/2 text-base md:text-lg">
                       AAETJ1724A
                     </td>
                   </tr>
                   <tr>
-                    <td className="border border-[#ebb42c] px-4 py-3 w-1/2 text-lg">
+                    <td className="border border-[#ebb42c] px-4 py-3 w-1/2 text-base md:text-lg">
                       80-G No.
                     </td>
-                    <td className="border border-[#ebb42c] px-4 py-3 w-1/2 text-lg">
+                    <td className="border border-[#ebb42c] px-4 py-3 w-1/2 text-base md:text-lg">
                       AAETJ1724AF20231
                     </td>
                   </tr>
                   <tr>
-                    <td className="border border-[#ebb42c] px-4 py-3 w-1/2 text-lg">
+                    <td className="border border-[#ebb42c] px-4 py-3 w-1/2 text-base md:text-lg">
                       CSR No.
                     </td>
-                    <td className="border border-[#ebb42c] px-4 py-3 w-1/2 text-lg">
+                    <td className="border border-[#ebb42c] px-4 py-3 w-1/2 text-base md:text-lg">
                       CSR00060245
                     </td>
                   </tr>
@@ -71,8 +71,8 @@ const Donate = () => {
 
           <div className="md:w-1/2 mt-8 md:mt-0">
             <h1 className="text-3xl md:text-4xl">Donor's Testimonial</h1>
-            <div className="font-sans text-xl w-[410px] md:w-[680px] h-[510px] md:h-[320px] mt-7 tracking-wider leading-relaxed border border-[#ebb42c] rounded-3xl">
-              <p className="pt-6 px-7">
+            <div className="font-sans text-base md:text-xl w-[360px] md:w-[680px] h-[370px] md:h-[320px] mt-7 tracking-wider leading-relaxed border border-[#ebb42c] rounded-3xl text-center md:text-left">
+              <p className="pt-4 md:pt-6 px-5 md:px-10">
                 I am so happy to see my donation going for a useful purpose,
                 thanks to Jamia Faizul Uloom, who makes it happen. It is a best
                 way to stay connected with the noble cause and have the feeling
@@ -81,7 +81,7 @@ const Donate = () => {
                 small amount can make a massive difference. I am very happy to
                 be part of initiatives like girl education.
               </p>
-              <p className="pl-7 pt-3">Mr. Nizamuddin Khan</p>
+              <p className="mt-4 md:mt-4 md:pl-10">Mr. Nizamuddin Khan</p>
             </div>
           </div>
         </div>

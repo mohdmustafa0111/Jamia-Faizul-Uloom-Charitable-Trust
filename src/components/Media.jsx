@@ -69,8 +69,8 @@ const Media = () => {
     <div id="media">
       {/* Print Nedia */}
 
-      <div className="h-[590px] md:h-[700px] w-full text-center p-10 mt-3">
-        <h1 className="text-2xl md:text-3xl bg-[#012b28] text-[#ebb42c] w-52 p-3 md:p-4 m-auto rounded-full">
+      <div className="h-[570px] md:h-[700px] w-full text-center p-10 mt-3">
+        <h1 className="text-xl md:text-3xl bg-[#012b28] text-[#ebb42c] w-fit px-6 py-3 md:px-6 md:py-3 m-auto rounded-full">
           Print Media
         </h1>
 
@@ -81,7 +81,7 @@ const Media = () => {
                 <img
                   src={image}
                   alt={`Slide ${index + 1}`}
-                  className="w-full h-[400px] md:h-[480px] px-8"
+                  className="w-full h-[380px] md:h-[480px] px-8"
                 />
               </div>
             ))}
@@ -91,8 +91,8 @@ const Media = () => {
 
       {/* Digital Nedia */}
 
-      <div className="h-[620px] md:h-[650px] w-full text-center p-10 bg-[#F7E3D2]">
-        <h1 className="text-2xl md:text-3xl bg-[#012b28] text-[#ebb42c] w-60 p-3 md:p-4 mt-5 m-auto rounded-full">
+      <div className="h-[600px] md:h-[650px] w-full text-center p-10 bg-[#F7E3D2]">
+        <h1 className="text-xl md:text-3xl bg-[#012b28] text-[#ebb42c] w-fit px-6 py-3 md:px-6 md:py-3 mt-5 m-auto rounded-full">
           Digital Media
         </h1>
 
@@ -102,7 +102,7 @@ const Media = () => {
               <div key={index}>
                 <div>
                   <iframe
-                    className="w-[500px] h-[400px] md:px-10 mt-3"
+                    className="w-[500px] h-[380px] md:px-10 mt-3"
                     src={video}
                     title={`YouTube video ${index + 1}`}
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
