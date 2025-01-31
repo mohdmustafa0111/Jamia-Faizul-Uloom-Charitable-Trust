@@ -31,6 +31,8 @@ const Media = () => {
     "https://www.youtube.com/embed/NboIt4cIabw?si=SsHE9ixczf78-KPF",
     "https://www.youtube.com/embed/YlaFj5wFbU8?si=Fu3Wq6i7Wd1ZbCJs",
     "https://www.youtube.com/embed/cUrHQsIhffA?si=mWSAcH48JtBPiHwE",
+    "https://www.youtube.com/embed/aqsnof36fzQ?si=h7-iyGa9JCzYo6zS",
+    "https://www.youtube.com/embed/t3SAwrEYO1I?si=MrHGsOnyIu6ra1QA",
   ];
 
   const settings = {

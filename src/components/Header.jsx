@@ -41,7 +41,7 @@ const Header = () => {
 
       {/* Desktop Menu */}
       <div>
-        <ul className="hidden md:flex md:items-center md:space-x-10 text-[#ebb42c] md:text-xl cursor-pointer md:mr-12">
+        <ul className="hidden md:flex md:items-center md:space-x-7 text-[#ebb42c] md:text-xl cursor-pointer md:mr-12">
           <li>
             <a
               href="#home"
