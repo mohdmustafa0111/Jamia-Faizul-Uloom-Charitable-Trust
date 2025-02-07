@@ -5,6 +5,7 @@ import Events from "./Events";
 import Media from "./Media";
 import Donate from "./Donate";
 import Footer from "./Footer";
+import Docs from "./Docs";
 
 const Body = () => {
   return (
@@ -12,6 +13,7 @@ const Body = () => {
       <Header />
       <VideoBackground />
       <About />
+      <Docs />
       <Events />
       <Media />
       <Donate />

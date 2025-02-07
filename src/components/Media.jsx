@@ -71,7 +71,7 @@ const Media = () => {
     <div id="media">
       {/* Print Nedia */}
 
-      <div className="h-[570px] md:h-[700px] w-full text-center p-10 mt-3">
+      <div className="h-[570px] md:h-[700px] w-full text-center p-10 mt-3 bg-[#F7E3D2]">
         <h1 className="text-xl md:text-3xl bg-[#012b28] text-[#ebb42c] w-fit px-6 py-3 md:px-6 md:py-3 m-auto rounded-full">
           Print Media
         </h1>
@@ -93,7 +93,7 @@ const Media = () => {
 
       {/* Digital Nedia */}
 
-      <div className="h-[600px] md:h-[650px] w-full text-center p-10 bg-[#F7E3D2]">
+      <div className="h-[600px] md:h-[650px] w-full text-center p-10">
         <h1 className="text-xl md:text-3xl bg-[#012b28] text-[#ebb42c] w-fit px-6 py-3 md:px-6 md:py-3 mt-5 m-auto rounded-full">
           Digital Media
         </h1>
