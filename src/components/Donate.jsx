@@ -1,6 +1,9 @@
 import { QRCodeCanvas } from "qrcode.react";
 
 const Donate = () => {
+  const QRUrl =
+    "upi://pay?pa=Vyapar.170076790072@hdfcbank&pn=Default&mc=8999&tr=STQU170076790072&cu=INR";
+
   return (
     <div id="donate">
       <div className="bg-[#012b28] text-[#ebb42c] w-full h-[980px] md:h-[580px]">
@@ -78,7 +81,7 @@ const Donate = () => {
             </h1>
             <div className="mt-10 flex justify-center">
               <QRCodeCanvas
-                value="upi://pay?pa=Vyapar.170076790072@hdfcbank&pn=Default&mc=8999&tr=STQU170076790072&cu=INR"
+                value={QRUrl}
                 size={300}
                 bgColor="#ffffff"
                 fgColor="#000000"
