@@ -1,3 +1,5 @@
+import { QRCodeCanvas } from "qrcode.react";
+
 const Donate = () => {
   return (
     <div id="donate">
@@ -7,8 +9,9 @@ const Donate = () => {
             Donate to the Cause
           </h1>
         </div>
-        {/* Financial Details */}
+
         <div className="flex md:mt-4 flex-col md:flex-row justify-center items-center text-center md:text-left">
+          {/* Financial Details */}
           <div className="md:w-1/2 md:pl-12">
             <h1 className="text-3xl md:text-4xl">Financial Details</h1>
             <div className="font-sans mt-7">
@@ -70,18 +73,16 @@ const Donate = () => {
           {/* Donor's Testimonial */}
 
           <div className="md:w-1/2 mt-8 md:mt-0">
-            <h1 className="text-3xl md:text-4xl">Donor's Testimonial</h1>
-            <div className="font-sans text-base md:text-xl w-[360px] md:w-[680px] h-[370px] md:h-[320px] mt-7 tracking-wider leading-relaxed border border-[#ebb42c] rounded-3xl text-center md:text-left">
-              <p className="pt-4 md:pt-6 px-5 md:px-10">
-                I am so happy to see my donation going for a useful purpose,
-                thanks to Jamia Faizul Uloom, who makes it happen. It is a best
-                way to stay connected with the noble cause and have the feeling
-                of doing something for society. And the best part is, you don't
-                need huge money to contribute for such noble causes, even a
-                small amount can make a massive difference. I am very happy to
-                be part of initiatives like girl education.
-              </p>
-              <p className="mt-4 md:mt-4 md:pl-10">Mr. Nizamuddin Khan</p>
+            <h1 className="text-3xl md:text-4xl px-2 text-center">
+              Scan to donate with any UPI app
+            </h1>
+            <div className="mt-10 flex justify-center">
+              <QRCodeCanvas
+                value="upi://pay?pa=Vyapar.170076790072@hdfcbank&pn=Default&mc=8999&tr=STQU170076790072&cu=INR"
+                size={300}
+                bgColor="#ffffff"
+                fgColor="#000000"
+              />
             </div>
           </div>
         </div>
@@ -89,4 +90,5 @@ const Donate = () => {
     </div>
   );
 };
+
 export default Donate;
