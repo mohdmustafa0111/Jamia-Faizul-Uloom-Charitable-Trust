@@ -1,6 +1,6 @@
 const VideoBackground = () => {
   return (
-    <div id="home">
+    <div id="home" className=" pt-14 md:pt-20">
       <iframe
         src={
           "https://www.youtube.com/embed/NboIt4cIabw?si=9qzaDgdUYHxKRZE3" +
