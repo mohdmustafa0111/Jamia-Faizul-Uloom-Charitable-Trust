@@ -11,8 +11,8 @@ const About = () => {
     <div id="about">
       {/* About our Organization */}
 
-      <div className="flex flex-col-reverse md:flex-row items-center md:items-center">
-        <div className="my-5 md:my-20 md:mx-14">
+      <div className="flex flex-col-reverse md:flex-row items-center md:items-center md:justify-center">
+        <div className="my-5 md:my-20 md:mr-10">
           <img
             src={JfuctMap}
             alt="JFUCT"
