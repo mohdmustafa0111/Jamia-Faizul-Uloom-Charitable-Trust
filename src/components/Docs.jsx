@@ -66,7 +66,7 @@ const Docs = () => {
       className="bg-[#F7E3D2] h-[540px] md:h-[680px] w-full text-center p-10"
     >
       <h1 className="text-xl md:text-3xl bg-[#012b28] text-[#ebb42c] w-fit px-6 py-3 md:px-6 md:py-3 md: mt-1 md:mt-3 m-auto rounded-full">
-        Proof of Work (Docs)
+        Deeds of Trust
       </h1>
 
       <div className="mt-9 md:mt-14">
