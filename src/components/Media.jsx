@@ -9,6 +9,10 @@ import PrintMedia7 from "../assests/Print Media/Print 7.jpg";
 import PrintMedia8 from "../assests/Print Media/Print 8.jpg";
 import PrintMedia9 from "../assests/Print Media/Print 9.jpg";
 import PrintMedia10 from "../assests/Print Media/Print 10.jpeg";
+import PrintMedia11 from "../assests/Print Media/Print 11.jpeg";
+import PrintMedia12 from "../assests/Print Media/Print 12.jpeg";
+import PrintMedia13 from "../assests/Print Media/Print 13.jpeg";
+import PrintMedia14 from "../assests/Print Media/Print 14.jpeg";
 
 const Media = () => {
   const PrintMedia = [
@@ -22,6 +26,10 @@ const Media = () => {
     PrintMedia8,
     PrintMedia9,
     PrintMedia10,
+    PrintMedia11,
+    PrintMedia12,
+    PrintMedia13,
+    PrintMedia14,
   ];
 
   const videos = [

@@ -11,6 +11,9 @@ import Doc9 from "../assests/Docs/Doc-9.jpeg";
 import Doc10 from "../assests/Docs/Doc-10.jpeg";
 import Doc11 from "../assests/Docs/Doc-11.jpeg";
 import Doc12 from "../assests/Docs/Doc-12.jpeg";
+import Doc13 from "../assests/Docs/Doc-13.jpg";
+import Doc14 from "../assests/Docs/Doc-14.jpg";
+import Doc15 from "../assests/Docs/Doc-15.jpg";
 
 const Docs = () => {
   const DocImages = [
@@ -26,6 +29,9 @@ const Docs = () => {
     Doc10,
     Doc11,
     Doc12,
+    Doc13,
+    Doc14,
+    Doc15,
   ];
 
   const settings = {
